@@ -1,6 +1,6 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: configMap-4
+  name: configmap-4
 data:
   test: test-4
