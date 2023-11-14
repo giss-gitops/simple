@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: my-simple-app
+  namespace: openshift-gitops
+spec:
+  destination:
+    namespace: default
+    server: https://kubernetes.default.svc
+  project: simple
+  source: 
+    repoURL: https://github.com/giss-gitops/simple.git
+    path: yamls
+    targetRevision: master
