@@ -11,4 +11,4 @@ spec:
   source: 
     repoURL: https://github.com/giss-gitops/simple.git
     path: yamls
-    targetRevision: master
+    targetRevision: main
